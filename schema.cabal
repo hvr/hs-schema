@@ -27,7 +27,7 @@ library
   exposed-modules:
       Data.Schema
   build-depends:
-      base < 5
+      base >= 4.7 && < 5
 
 test-suite testsuite
   type: exitcode-stdio-1.0
